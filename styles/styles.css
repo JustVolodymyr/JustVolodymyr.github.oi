@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Шапка */
+.container-big{
+max-width: 1200px;
+min-width: 960px;
+height: 100%;
+margin: 0 auto;
+position: relative;
+}
+.page-header{
+height: 119px;
+background: #eff3f7 url() bottom center no-repeat;
+position: relative;
+margin-bottom: 39px;
+}
+.page-header .header-logo-link{
+position: absolute;
+top: 30px;
+left: 0;
+}
+.page-header .header-logo-text{
+position: absolute;
+left: -9999px;
+}
+.page-header .socials{
+position: absolute;
+right: 0;
+top: 36px;
+}
+/* Шапка кінець*/
+
+
+
+
+
+
+/* Загальні класи */
+.container {
+width: 650px;
+margin: 0 auto;
+}
+.text-center{
+text-align: center;
+}
+.pull-left {
+float:  left !important;
+}
+.pull-right{
+float: right !important;
+}
+.container:before, .clearfix:before,
+.container:after, .clearfix:after{
+content:  " ";
+display:  table;
+}
+.container:after, .clearfix:after{
+clear:  both;
+}
+
+/*Головна область*/
+.variable-content{
+width:  650px;
+float: right;
+position: sticky;
+  top: 0;
+
+}
+
+/**/
+
+
+
+
+
+/*..........................контент..................................*/
+.aboutbox{
+background: #eff3f7;
+border-radius: 4px;
+margin-bottom: 26px;
+}
+.aboutbox .aboutbox-header{
+font-family: 'fira_sansmedium';
+font-size: 27px;
+font-weight: normal;
+color: #3ba8c0;
+border-bottom: 2px #3ba8c0 solid;
+margin: 0 0 23px 0;
+padding: 13px 23px;
+display: inline-block;
+}
+.aboutbox-body{
+padding-bottom: 40px;
+}
+/*Лице*/
+.image-wrap{
+float: left;
+margin-left: 45px;
+margin-top: 18px;
+margin-right: 45px;
+}
+.avatar-box{
+width: 142px;
+height: 142px;
+border-radius:  50% 50%;
+overflow: hidden;
+border: 5px solid #3ba8c0;
+}
+.avatar{
+width: 100%;
+}
+/* Лице кінець */
+
+
+.aboutbox .worksheet-wrap{
+float:  left;
+width: 400px;
+}
+.worksheet-list{
+list-style:  none;
+padding: 0;
+margin: 0;
+}
+.worksheet-info {
+float: left;
+margin-left: 25px;
+max-width: 260px;
+}
+.worksheet-what{
+font-family: 'fira_sansmedium';
+font-weight: bold;
+font-size: 16px;
+float: left;
+}
+.worksheet-info{
+font-family: 'fira_sansmedium';
+font-size:  16px;
+float: left;
+}
+.worksheet-info{
+font-family: 'fira_sansmedium';
+font-size: 15px;
+overflow: hidden;
+max-width: 218px;
+}
+.workseet-info{
+float: left;
+margin-left: 25px;
+}
+.worksheet-info
+.skills-list {
+width: 224px;
+padding: 0;
+list-style: none;
+}
+/*............................................................*/
+
+
+/* Футер */
+html,body{
+  height: 100%;
+  background-image: url(../img/box.jpg);
+}
+.page-footer{
+background: #eff3f7  top center no-repeat;
+font-family: 'fira_sanslight';
+color: #4a545d;
+}
+.page-footer .container {
+padding-top:  23px;
+position: relative;
+}
+.page-footer .copyright{
+margin: 0 180px;
+padding-top: 7px;
+text-align: center;
+font-size: 13px;
+}
+/* Футер кінець*/
+
+.wrapper{
+position: relative;
+min-height:  100%;
+min-width: 970px;
+height:  auto !important;
+/*overflow: hidden;*/
+}
+.wrapper:after {
+content: "";
+height: 80px;
+display: block;
+}
+.page-footer{
+min-width: 970px;
+height: 80px;
+margin-top: -80px;
+}
