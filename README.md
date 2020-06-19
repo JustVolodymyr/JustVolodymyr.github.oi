@@ -13,3 +13,5 @@ https://justvolodymyr.github.io/JustVolodymyr.github.oi -ПОРТФОЛІО!!!
 
 https://justvolodymyr.github.io/JustVolodymyr.github.oi/LR_8/task_1/
 https://justvolodymyr.github.io/JustVolodymyr.github.oi/LR_8/task_2/
+
+https://justvolodymyr.github.io/JustVolodymyr.github.oi/KKR/
